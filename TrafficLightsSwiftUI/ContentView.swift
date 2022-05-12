@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var currentPosition = 0
-    @State private var buttonLabel = "START"
 
     var body: some View {
         ZStack {
@@ -17,10 +16,10 @@ struct ContentView: View {
             VStack {
                 trafiicLights
                 Spacer()
-                SwitchButtonView(label: buttonLabel, action: switchAction)
+                SwitchButtonView(label: currentPosition == 0 ? "START" : "NEXT",
+                                 action: switchAction)
             }.padding(EdgeInsets(top: 32, leading: 0, bottom: 32, trailing: 0))
         }
-        .preferredColorScheme(.dark)
     }
 }
 
@@ -37,7 +36,6 @@ extension ContentView {
     }
 
     private func switchAction() {
-        if buttonLabel == "START" { buttonLabel = "NEXT" }
         currentPosition < 3 ? (currentPosition += 1) : (currentPosition = 1)
     }
 }
