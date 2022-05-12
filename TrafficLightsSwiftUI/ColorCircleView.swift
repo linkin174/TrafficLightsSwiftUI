@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ColorCircleView: View {
+    
     let color: Color
     let diameter = UIScreen.main.bounds.maxX / 3
     let opacity: Double

@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct SwitchButtonView: View {
-    @State private var label = "START"
+    
+    let label: String
     let action: () -> Void
 
     var body: some View {
-        Button {
-            label = "NEXT"
-            action()
-        } label: {
+        Button(action: action) {
             Text(label)
                 .font(.largeTitle)
                 .bold()
@@ -29,6 +27,6 @@ struct SwitchButtonView: View {
 
 struct ButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        SwitchButtonView(action: {})
+        SwitchButtonView(label: "START", action: {})
     }
 }

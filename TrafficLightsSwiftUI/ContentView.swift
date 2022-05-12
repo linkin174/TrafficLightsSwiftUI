@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var currentPosition = 0
+    @State private var buttonLabel = "START"
 
     var body: some View {
         ZStack {
@@ -22,14 +23,19 @@ struct ContentView: View {
                 ColorCircleView(color: .green,
                                 opacity: currentPosition == 3 ? 1.0 : 0.3)
                 Spacer()
-                SwitchButtonView {
-                    currentPosition < 3
-                    ? (currentPosition += 1)
-                    : (currentPosition = 1)
-                }
+                SwitchButtonView(label: buttonLabel, action: switchAction)
             }
             .padding(16)
         }
+    }
+}
+
+extension ContentView {
+    private func switchAction() {
+        if buttonLabel == "START" { buttonLabel = "NEXT" }
+        currentPosition < 3
+        ? (currentPosition += 1)
+        : (currentPosition = 1)
     }
 }
 
