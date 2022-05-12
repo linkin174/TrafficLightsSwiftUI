@@ -18,7 +18,7 @@ struct ContentView: View {
                 trafiicLights
                 Spacer()
                 SwitchButtonView(label: buttonLabel, action: switchAction)
-            }.padding(EdgeInsets(top: 16, leading: 0, bottom: 32, trailing: 0))
+            }.padding(EdgeInsets(top: 32, leading: 0, bottom: 32, trailing: 0))
         }
     }
 }
