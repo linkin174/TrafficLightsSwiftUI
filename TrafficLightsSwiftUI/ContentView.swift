@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var buttonTitle = "START"
-    @State private var currentPosition = 0
+    
+    @State var buttonTitle = "START"
+    @State var currentPosition = 0
 
     var body: some View {
         ZStack {
@@ -43,25 +44,9 @@ struct ContentView: View {
     }
 }
 
-extension ContentView {
-    private func createCircleWith(diameter: CGFloat, color: Color) -> some View {
-        Circle()
-            .padding(-4)
-            .frame(width: diameter, height: diameter)
-            .foregroundColor(color)
-            .overlay(Circle().trim(from: 0.53, to: 0.97)
-                .stroke(Color.black.opacity(0.8), lineWidth: 8))
-            
-    }
-
-    func switchLight() {
-        if buttonTitle == "START" { buttonTitle = "NEXT" }
-        currentPosition < 3 ? (currentPosition += 1) : (currentPosition = 1)
-    }
-}
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
