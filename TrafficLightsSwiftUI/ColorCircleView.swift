@@ -23,6 +23,7 @@ struct ColorCircleView: View {
             .overlay(Circle()
                 .trim(from: 0.53, to: 0.97)
                 .stroke(Color.black.opacity(0.8), lineWidth: 8))
+            .animation(.easeInOut(duration: 0.2), value: opacity)
     }
 }
 

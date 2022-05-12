@@ -37,9 +37,7 @@ extension ContentView {
 
     private func switchAction() {
         if buttonLabel == "START" { buttonLabel = "NEXT" }
-        currentPosition < 3
-        ? (currentPosition += 1)
-        : (currentPosition = 1)
+        currentPosition < 3 ? (currentPosition += 1) : (currentPosition = 1)
     }
 }
 
