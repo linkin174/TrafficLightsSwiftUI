@@ -28,6 +28,6 @@ struct ColorCircleView: View {
 
 struct ColorCircleView_Previews: PreviewProvider {
     static var previews: some View {
-        ColorCircleView(color: .gray, opacity: 0.4)
+        ColorCircleView(color: .gray, opacity: 1.0)
     }
 }
