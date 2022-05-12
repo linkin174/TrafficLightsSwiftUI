@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 extension ContentView {
     
     func createCircleWith(diameter: CGFloat, color: Color) -> some View {
@@ -17,7 +16,6 @@ extension ContentView {
             .foregroundColor(color)
             .overlay(Circle().trim(from: 0.53, to: 0.97)
                 .stroke(Color.black.opacity(0.8), lineWidth: 8))
-            
     }
 
     func switchLight() {
