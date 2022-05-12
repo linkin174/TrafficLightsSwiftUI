@@ -1,0 +1,34 @@
+//
+//  ButtonView.swift
+//  TrafficLightsSwiftUI
+//
+//  Created by Aleksandr Kretov on 12.05.2022.
+//
+
+import SwiftUI
+
+struct SwitchButtonView: View {
+    @State private var label = "START"
+    let action: () -> Void
+
+    var body: some View {
+        Button {
+            label = "NEXT"
+            action()
+        } label: {
+            Text(label)
+                .font(.largeTitle)
+                .bold()
+                .foregroundColor(.white)
+        }
+        .frame(width: 125, height: 60)
+        .background(.blue)
+        .cornerRadius(12)
+    }
+}
+
+struct ButtonView_Previews: PreviewProvider {
+    static var previews: some View {
+        SwitchButtonView(action: {})
+    }
+}

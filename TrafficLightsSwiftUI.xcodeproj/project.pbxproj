@@ -11,7 +11,8 @@
 		70CF2DAF282CB3AE0034A0C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CF2DAE282CB3AE0034A0C3 /* ContentView.swift */; };
 		70CF2DB1282CB3AF0034A0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CF2DB0282CB3AF0034A0C3 /* Assets.xcassets */; };
 		70CF2DB4282CB3B00034A0C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CF2DB3282CB3B00034A0C3 /* Preview Assets.xcassets */; };
-		70CF2DBE282D0D850034A0C3 /* ContentView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CF2DBD282D0D850034A0C3 /* ContentView+Extensions.swift */; };
+		70CF2DC1282D67E90034A0C3 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CF2DC0282D67E90034A0C3 /* ColorCircleView.swift */; };
+		70CF2DC5282D79FF0034A0C3 /* SwitchButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CF2DC4282D79FF0034A0C3 /* SwitchButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +21,8 @@
 		70CF2DAE282CB3AE0034A0C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		70CF2DB0282CB3AF0034A0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70CF2DB3282CB3B00034A0C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		70CF2DBD282D0D850034A0C3 /* ContentView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+Extensions.swift"; sourceTree = "<group>"; };
+		70CF2DC0282D67E90034A0C3 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
+		70CF2DC4282D79FF0034A0C3 /* SwitchButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +55,9 @@
 		70CF2DAB282CB3AE0034A0C3 /* TrafficLightsSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				70CF2DBF282D0DCC0034A0C3 /* Extensions */,
 				70CF2DAE282CB3AE0034A0C3 /* ContentView.swift */,
+				70CF2DC4282D79FF0034A0C3 /* SwitchButtonView.swift */,
+				70CF2DC0282D67E90034A0C3 /* ColorCircleView.swift */,
 				70CF2DAC282CB3AE0034A0C3 /* TrafficLightsSwiftUIApp.swift */,
 				70CF2DB0282CB3AF0034A0C3 /* Assets.xcassets */,
 				70CF2DB2282CB3B00034A0C3 /* Preview Content */,
@@ -68,14 +71,6 @@
 				70CF2DB3282CB3B00034A0C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		70CF2DBF282D0DCC0034A0C3 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				70CF2DBD282D0D850034A0C3 /* ContentView+Extensions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CF2DC1282D67E90034A0C3 /* ColorCircleView.swift in Sources */,
 				70CF2DAF282CB3AE0034A0C3 /* ContentView.swift in Sources */,
-				70CF2DBE282D0D850034A0C3 /* ContentView+Extensions.swift in Sources */,
+				70CF2DC5282D79FF0034A0C3 /* SwitchButtonView.swift in Sources */,
 				70CF2DAD282CB3AE0034A0C3 /* TrafficLightsSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
