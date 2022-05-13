@@ -18,6 +18,7 @@ struct ColorCircleView: View {
             .padding(-4)
             .frame(width: diameter, height: diameter)
             .foregroundColor(color)
+            .shadow(color: color, radius: opacity == 1 ? 12 : 0)
             .opacity(opacity)
             .overlay(Circle()
                 .trim(from: 0.53, to: 0.97)
