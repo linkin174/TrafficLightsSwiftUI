@@ -31,10 +31,14 @@ extension ContentView {
             ColorCircleView(color: .yellow,
                             opacity: currentPosition == 2 ? 1.0 : 0.3)
             ColorCircleView(color: .green,
-                            opacity: currentPosition == 3 ? 1.0 : 0.3)
+                            opacity: setOpacity(condition: currentPosition == 3))
         }
     }
-
+    
+    private func setOpacity(condition: Bool) -> Double {
+        condition ? 1.0 : 0.3
+    }
+    
     private func switchAction() {
         currentPosition < 3 ? (currentPosition += 1) : (currentPosition = 1)
     }
