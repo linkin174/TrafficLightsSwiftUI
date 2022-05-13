@@ -19,7 +19,7 @@ struct ContentView: View {
                 SwitchButtonView(label: currentPosition == 0 ? "START" : "NEXT",
                                  action: switchAction)
             }.padding(EdgeInsets(top: 32, leading: 0, bottom: 32, trailing: 0))
-        }
+        }.preferredColorScheme(.dark)
     }
 }
 
