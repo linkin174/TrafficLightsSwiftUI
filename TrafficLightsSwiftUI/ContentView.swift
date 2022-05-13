@@ -34,11 +34,12 @@ extension ContentView {
                             opacity: currentPosition == 3 ? 1.0 : 0.3)
         }
     }
-
+    
     private func switchAction() {
         currentPosition < 3 ? (currentPosition += 1) : (currentPosition = 1)
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

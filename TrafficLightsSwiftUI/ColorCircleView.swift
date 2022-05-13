@@ -20,10 +20,11 @@ struct ColorCircleView: View {
             .foregroundColor(color)
             .shadow(color: color, radius: opacity == 1 ? 12 : 0)
             .opacity(opacity)
+            .shadow(color: color, radius: opacity == 1 ? 12 : 0)
             .overlay(Circle()
                 .trim(from: 0.53, to: 0.97)
                 .stroke(Color.brown, lineWidth: 8))
-            .animation(.easeIn(duration: 0.2), value: opacity)
+            .animation(.easeInOut(duration: 0.4), value: opacity)
     }
 }
 
