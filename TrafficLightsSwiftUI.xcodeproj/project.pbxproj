@@ -55,9 +55,9 @@
 		70CF2DAB282CB3AE0034A0C3 /* TrafficLightsSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				70CF2DAE282CB3AE0034A0C3 /* ContentView.swift */,
-				70CF2DC4282D79FF0034A0C3 /* SwitchButtonView.swift */,
 				70CF2DC0282D67E90034A0C3 /* ColorCircleView.swift */,
+				70CF2DC4282D79FF0034A0C3 /* SwitchButtonView.swift */,
+				70CF2DAE282CB3AE0034A0C3 /* ContentView.swift */,
 				70CF2DAC282CB3AE0034A0C3 /* TrafficLightsSwiftUIApp.swift */,
 				70CF2DB0282CB3AF0034A0C3 /* Assets.xcassets */,
 				70CF2DB2282CB3B00034A0C3 /* Preview Content */,

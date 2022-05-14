@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color.black.opacity(0.9).ignoresSafeArea()
-            VStack {
+            VStack(spacing: 16) {
                 trafiicLights
                 Spacer()
                 SwitchButtonView(label: currentPosition == 0 ? "START" : "NEXT",
@@ -25,7 +25,7 @@ struct ContentView: View {
 
 extension ContentView {
     private var trafiicLights: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: 8) {
             ColorCircleView(color: .red,
                             opacity: currentPosition == 1 ? 1.0 : 0.3)
             ColorCircleView(color: .yellow,
