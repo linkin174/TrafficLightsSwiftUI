@@ -21,9 +21,6 @@ struct ColorCircleView: View {
                 .foregroundColor(color)
                 .shadow(color: color, radius: opacity == 1 ? 12 : 0)
                 .opacity(opacity)
-//                .overlay(Circle()
-//                    .trim(from: 0.53, to: 0.97)
-//                    .stroke(Color.brown, lineWidth: 8))
             .animation(.easeInOut(duration: 0.4), value: opacity)
             
             Image("bulb")
@@ -38,7 +35,6 @@ struct ColorCircleView: View {
             
             Circle()
                 .frame(width: diameter + 28, height: diameter + 28)
-//                .padding(14)
                 .overlay(Circle()
                     .trim(from: 0.53, to: 0.97)
                     .stroke(Color.black, lineWidth: 20))
