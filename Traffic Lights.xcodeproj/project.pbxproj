@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		70CF2DA9282CB3AE0034A0C3 /* TrafficLightsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CF2DA9282CB3AE0034A0C3 /* Traffic Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traffic Lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CF2DAC282CB3AE0034A0C3 /* TrafficLightsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsSwiftUIApp.swift; sourceTree = "<group>"; };
 		70CF2DAE282CB3AE0034A0C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		70CF2DB0282CB3AF0034A0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		70CF2DAA282CB3AE0034A0C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70CF2DA9282CB3AE0034A0C3 /* TrafficLightsSwiftUI.app */,
+				70CF2DA9282CB3AE0034A0C3 /* Traffic Lights.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70CF2DA8282CB3AE0034A0C3 /* TrafficLightsSwiftUI */ = {
+		70CF2DA8282CB3AE0034A0C3 /* Traffic Lights */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70CF2DB7282CB3B00034A0C3 /* Build configuration list for PBXNativeTarget "TrafficLightsSwiftUI" */;
+			buildConfigurationList = 70CF2DB7282CB3B00034A0C3 /* Build configuration list for PBXNativeTarget "Traffic Lights" */;
 			buildPhases = (
 				70CF2DA5282CB3AE0034A0C3 /* Sources */,
 				70CF2DA6282CB3AE0034A0C3 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = TrafficLightsSwiftUI;
+			name = "Traffic Lights";
 			productName = TrafficLightsSwiftUI;
-			productReference = 70CF2DA9282CB3AE0034A0C3 /* TrafficLightsSwiftUI.app */;
+			productReference = 70CF2DA9282CB3AE0034A0C3 /* Traffic Lights.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70CF2DA4282CB3AE0034A0C3 /* Build configuration list for PBXProject "TrafficLightsSwiftUI" */;
+			buildConfigurationList = 70CF2DA4282CB3AE0034A0C3 /* Build configuration list for PBXProject "Traffic Lights" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70CF2DA8282CB3AE0034A0C3 /* TrafficLightsSwiftUI */,
+				70CF2DA8282CB3AE0034A0C3 /* Traffic Lights */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = null.TrafficLightsSwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Traffic Lights";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -318,7 +318,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = null.TrafficLightsSwiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Traffic Lights";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70CF2DA4282CB3AE0034A0C3 /* Build configuration list for PBXProject "TrafficLightsSwiftUI" */ = {
+		70CF2DA4282CB3AE0034A0C3 /* Build configuration list for PBXProject "Traffic Lights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70CF2DB5282CB3B00034A0C3 /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70CF2DB7282CB3B00034A0C3 /* Build configuration list for PBXNativeTarget "TrafficLightsSwiftUI" */ = {
+		70CF2DB7282CB3B00034A0C3 /* Build configuration list for PBXNativeTarget "Traffic Lights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70CF2DB8282CB3B00034A0C3 /* Debug */,
